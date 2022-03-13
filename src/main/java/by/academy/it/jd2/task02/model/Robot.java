@@ -12,6 +12,7 @@ public class Robot {
     private CPU cpu;
     private RAM ram;
     private HDD hdd;
+    private boolean isComplete;
 
 
 
