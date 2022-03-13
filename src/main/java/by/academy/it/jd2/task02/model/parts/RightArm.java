@@ -15,6 +15,6 @@ public class RightArm extends Part{
 
     @Override
     public String toString() {
-        return super.toString();
+        return NAME;
     }
 }

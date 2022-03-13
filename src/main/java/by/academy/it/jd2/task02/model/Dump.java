@@ -1,28 +1,23 @@
 package by.academy.it.jd2.task02.model;
 
-import by.academy.it.jd2.task02.model.parts.*;
-
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Dump {
 
-    private List dump;
-    private List<Head> heads;
-    private List<LeftArm> leftArms;
-    private List<RightArm> rightArms;
-    private List<LeftLeg> leftLegs;
-    private List<RightLeg> rightLegs;
-    private List<Body> bodies;
-    private List<CPU> cpus;
-    private List<RAM> rams;
-    private List<HDD> hdds;
+    private Random random = new Random();
+    private static final int INITIAL_VALUE = 20;
+    private List<List> dump;
 
-    public void addPart(){
-
+    public Dump() {
+        this.dump = new ArrayList<>();
     }
 
-    public boolean getPart(int index){
-        return false;
+    private void initializeDump() {
+        for (int i = 0; i < INITIAL_VALUE; i++) {
+
+        }
     }
 
 

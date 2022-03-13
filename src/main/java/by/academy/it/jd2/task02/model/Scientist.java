@@ -10,8 +10,10 @@ public class Scientist implements Runnable{
 
     @Override
     public void run() {
+/*
         while (dump.getPart(1)) {
             System.out.println("^^^ Забираю со свалки ^^^");
         }
+*/
     }
 }
